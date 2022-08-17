@@ -1,0 +1,31 @@
+Fonts
+Open Sans
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+font-family: 'Poppins', sans-serif;
+
+Source Sans
+<link rel="stylesheet" href="https://use.typekit.net/ajc7syq.css">
+
+Color palette:
+https://coolors.co/palette/04080f-507dbc-a1c6ea-bbd1ea-dae3e5
+https://coolors.co/palette/0d1b2a-1b263b-415a77-778da9-e0e1dd
+https://coolors.co/palette/cdb4db-ffc8dd-ffafcc-bde0fe-a2d2ff
+
+H1 headers
+Font: Open Sans
+Font color: #507DBC
+
+H2 headers
+Font: Open Sans
+Font color: #A1C6EA
+
+Nav
+Font: Source Sans
+Font color: #DAE3E5
+Background color: #04080F
+
+Other text
+Font: Source Sans
+Font color: #04080F
