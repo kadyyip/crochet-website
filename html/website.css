@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+div {
+    width: 100vw;
+}
+
+.header {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #04080F;
+}
+
+nav li {
+    /* display: inline; */
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #A1C6EA;
+}
+
+.active {
+    background-color: #507DBC;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.blog-post {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
