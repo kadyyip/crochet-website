@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://use.typekit.net/ajc7syq.css');
+
+
 body {
     margin: 0;
     width: 100vw;
@@ -14,6 +18,15 @@ div {
     width: 100vw;
 }
 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins";
+}
+
+p, ol, ul, form, input {
+    font-family: "source-sans-pro";
+}
+
 .header {
     max-width: 500px;
     height: auto;
@@ -21,7 +34,14 @@ div {
 
 .blog-post {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.resources {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
 }
 
 nav ul {
@@ -61,9 +81,14 @@ li a:hover {
     flex-wrap: wrap;
 }
 
-.blog-post {
-    display: flex;
-    justify-content: space-evenly;
-    align-content: center;
-    flex-wrap: wrap;
+form {
+    width: 500px;
 }
+
+/* input[type=text] {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+} */

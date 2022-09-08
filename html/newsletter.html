@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Kady Crochets</title>
+        <title>Newsletter</title>
         <link rel="stylesheet" href="website.css">
     </head>
     <body>
-        <img src="logo.png" class="header">
+        <img src="images/logo.png" class="header">
         <nav>
             <ul>
                 <li><a href="home.html">Home</a></li>
                 <li><a href="resources.html">Resources</a></li>
-                <li><a href="photos.html">Instagram</a></li>
+                <li><a href="photos.html">Photos</a></li>
                 <li><a class="active" href="newsletter.html">Newsletter</a></li>
             </ul>
         </nav>
@@ -33,12 +33,24 @@
 
                 <div>
                     <p>What would you like to receive emails for?</p>
-                    <input type="checkbox" id="blog-posts" name="email-type">
-                    <label></label>
+                    <div class="email-type">
+                        <input type="checkbox" id="blog-posts" name="email-type">
+                        <label for="blog-posts">Blog Posts</label>
+                    </div>
+                    <div class="email-type">
+                        <input type="checkbox" id="blog-posts" name="email-type">
+                        <label for="blog-posts">Free Patterns</label>
+                    </div>
+                    <div class="email-type">
+                        <input type="checkbox" id="blog-posts" name="email-type">
+                        <label for="blog-posts">Shop Updates</label>
+                    </div>
+
+
                 </div>
 
                 <div>
-                    <label for="feedback">Any feedback for the website?</label>
+                    <label for="feedback">Any feedback for the website?</label><br>
                     <textarea id="feedback" name="feedback"></textarea>
                 </div>
             </fieldset>
