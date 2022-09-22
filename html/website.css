@@ -15,16 +15,18 @@ img {
 }
 
 div {
-    width: 100vw;
+    width: 100%;
 }
 
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Poppins";
+    margin: 10px;
 }
 
 p, ol, ul, form, input {
     font-family: "source-sans-pro";
+    margin: 10px;
 }
 
 .header {
@@ -53,7 +55,6 @@ nav ul {
 }
 
 nav li {
-    /* display: inline; */
     float: left;
 }
 
@@ -81,14 +82,20 @@ li a:hover {
     flex-wrap: wrap;
 }
 
-form {
-    width: 500px;
+
+input[type=text] {
+    width: 95%;
+    margin: 0px;
 }
 
-/* input[type=text] {
-    width: 100%;
+input[type=submit] {
+    margin: 10px 0 0 0;
 }
 
 textarea {
-    width: 100%;
-} */
+    width: 95%;
+}
+
+form {
+    width: 50%;
+}
